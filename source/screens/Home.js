@@ -1,64 +1,91 @@
-import React, {Component} from 'react';
-import {Text, View, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import React, { Component } from "react";
+import {
+  Text,
+  View,
+  StyleSheet,
+  Image,
+  ScrollView,
+  TouchableOpacity
+} from "react-native";
 
-import Pesquisa from '../components/Pesquisa';
-  
-export default class Carona extends Component{
-  
+import Pesquisa from "../components/Pesquisa";
+
+export default class Carona extends Component {
   render() {
     return (
+      <ScrollView>
+        <Pesquisa navigation={this.props.navigation} />
         <View>
-            <Pesquisa
-                navigation = {this.props.navigation}
-            />
+          <Text
+            style={{
+              paddingLeft: 15,
+              paddingRight: 15,
+              paddingTop: 15,
+              marginBottom: 15
+            }}
+          >
+            Voce pode escolher entre essas maneiras:
+          </Text>
 
+          <View
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              flexDirection: "column",
+              justifyContent: "space-evenly"
+            }}
+          >
             <View
-                style={{justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexDirection: 'column', }}
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                flexDirection: "row",
+                justifyContent: "space-evenly",
+                marginBottom: 20
+              }}
             >
-                <Text
-                    style={{top: -130, fontSize: 20}}
-                >
-                    Voce pode escolher entre essas maneiras:
-                </Text>
+              <TouchableOpacity
+                style={{ width: "33%", aspectRatio: 1 }}
+                onPress={() => this.props.navigation.navigate("Carona")}
+              >
+                <Image
+                  source={require("../../img/carona.png")}
+                  style={{ flex: 1, aspectRatio: 1 }}
+                />
+              </TouchableOpacity>
 
-                <View
-                    style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'column', justifyContent: 'space-evenly', top: -50}}
-                >
-                    <View
-                        style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly', marginBottom: 20}}
-                    >
-
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Carona')}>
-                            <Image
-                                style={{width:124, height: 118, marginRight: 20}}
-                                source={require("../../img/carona.png")}
-                            />
-                        </TouchableOpacity>       
-                        
-                        <Image
-                            style={{width:124, height: 118}}
-                            source={require("../../img/eventos.png")}
-                        />
-                    </View>
-                    <View
-                        style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly'}}
-                    >
-                        <Image
-                            style={{width:124, height: 118, marginRight: 20}}
-                            source={require("../../img/onibus.png")}
-                        />
-                        <Image
-                            style={{width:124, height: 118}}
-                            source={require("../../img/taxi.png")}
-                        />
-                    </View>
-                </View>
+              <TouchableOpacity
+                style={{ width: "33%", aspectRatio: 1 }}
+                onPress={() => this.props.navigation.navigate("Carona")}
+              >
+                <Image
+                  style={{ flex: 1, aspectRatio: 1 }}
+                  source={require("../../img/eventos.png")}
+                />
+              </TouchableOpacity>
             </View>
+            <View
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                flexDirection: "row",
+                justifyContent: "space-evenly"
+              }}
+            >
+              <Image
+                style={{ width: "33%", aspectRatio: 1, marginRight: 20 }}
+                source={require("../../img/onibus.png")}
+              />
+              <Image
+                style={{ width: "33%", aspectRatio: 1 }}
+                source={require("../../img/taxi.png")}
+              />
+            </View>
+          </View>
         </View>
+      </ScrollView>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  
-});
+const styles = StyleSheet.create({});
