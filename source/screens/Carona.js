@@ -10,7 +10,7 @@ export default class Carona extends Component{
           style={styles.pai}
         > 
             <NavText 
-                meio = ""
+                meio = "Pontos"
                 navigation = {this.props.navigation}
             />
             

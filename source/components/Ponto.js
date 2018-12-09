@@ -4,7 +4,7 @@ import {Icon} from 'react-native-elements';
 
 
   
-export default class Caronista extends Component{
+export default class Motorista extends Component{
   render() {
     return (
         <View style={styles.pai}>

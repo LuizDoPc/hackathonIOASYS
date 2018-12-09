@@ -4,13 +4,13 @@ import {Icon} from 'react-native-elements';
 
 
   
-export default class Caronista extends Component{
+export default class Motorista extends Component{
   render() {
     return (
         <View style={styles.pai}>
             <Image
-                style={{width:160, height: 118}}
-                source={require('../../img/logo.png')}
+                style={{width:160, height: 170}}
+                source={require('../../img/motorista.png')}
             />
 
             <View
@@ -21,10 +21,7 @@ export default class Caronista extends Component{
                 >
                     IR JUNTO
                 </Text>   
-            </View>
-            <TouchableOpacity onPress={() => this.props.navigation.navigate('Home')}>
-                <Text>Ir para proxima tela</Text>
-            </TouchableOpacity>    
+            </View>   
         </View>
     );
   }
@@ -34,6 +31,8 @@ const styles = StyleSheet.create({
     pai: {
         display: 'flex',
         flexDirection: 'column',
+        marginRight: 20,
+        marginTop: 20,
     },
     bg: {
         backgroundColor : "#282835",
