@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
-import {Image, View, TextInput, StyleSheet, Button } from 'react-native';
-import NavText from '/root/Documentos/hackathonIOASYS/source/components/NavText.js';
+import {Image, View, TextInput, StyleSheet, Button, BackHandler } from 'react-native';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
+import NavText from '../components/NavText.js';
+
+
 
   
 export default class Cadastro extends Component{
@@ -14,7 +17,7 @@ export default class Cadastro extends Component{
         > 
           <NavText 
             meio = "Cadastro"
-            direita = "Voltar"
+            navigation = {this.props.navigation}
           />
           
           <View
@@ -24,7 +27,7 @@ export default class Cadastro extends Component{
             alignItems: 'center'}}
           >
             <Image
-                style={{width:118, height: 118, top: -50}}
+                style={{width:135, height: 118, top: -50}}
                 source={require("../../img/logo.png")}
             />
 
@@ -61,7 +64,7 @@ export default class Cadastro extends Component{
             <View style={styles.botao}>
                 <Button 
                 onPress = {() => {
-                    alert("Login")
+                    this.props.navigation.navigate('IniciarCarona');
                 }}
                 title = 'Entrar'
                 color = "#282835"

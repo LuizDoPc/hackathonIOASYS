@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Text, View, StyleSheet, ImageBackground} from 'react-native';
 import {Button} from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
-
+import NavText from '../components/NavText';
   
 export default class IniciarCarona extends Component{
   state = {
@@ -14,6 +14,12 @@ export default class IniciarCarona extends Component{
         source = {require('../../img/bglogin.png')}
         style = {{width: '100%', height: '100%'}}
       >
+
+        <NavText
+          navigation = {this.props.navigation}
+        />
+        
+
         <View style={{backgroundColor: 'rgba(0, 0, 0, .8)', width: '100%', height: '100%', alignItems: 'center'}}>
             <View>
                 <Text style={{

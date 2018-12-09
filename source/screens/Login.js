@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import {Image, View, TextInput, StyleSheet, Button, ImageBackground, TouchableOpacity } from 'react-native';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
+
 
 export default class Login extends Component{
   state = {
@@ -45,9 +47,12 @@ export default class Login extends Component{
           <View style={styles.botaoTransparente}>
             <Button 
               onPress = {() => {
-                alert("Cadastro")
+                this.props.navigation.navigate('Cadastro')
               }}
               title = 'Cadastrar'
+              buttonStyle={{
+                backgroundColor: 'rgba(52, 52, 52, 0)'
+              }}
               />
 
           </View>
@@ -87,6 +92,9 @@ const styles = StyleSheet.create({
     width: 300,
     height: 40,
     marginTop: 31,
-  
+    width: 340,
+    borderColor: "white",
+    borderWidth: 1,
+    borderRadius: 5
   },
 });

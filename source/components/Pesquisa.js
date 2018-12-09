@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, TextInput, ImageBackground } from 'react-native';
+import {Text, View, StyleSheet, TextInput, ImageBackground, TouchableOpacity } from 'react-native';
 import {Icon, Button} from 'react-native-elements';
 
 
@@ -10,7 +10,7 @@ export default class Pesquisa extends Component{
   render(){ 
     return (
       <ImageBackground
-        source = {require("/root/Documentos/hackathonIOASYS/img/bgpesquisa.png")}
+        source = {require("../../img/bgpesquisa.png")}
         style = {{width: '100%', height: '65%'}}
       >
         <View style={styles.pai}>
@@ -25,11 +25,13 @@ export default class Pesquisa extends Component{
 
             </View>
 
-            <Text
-              style={{color: 'white'}}
-            >
-              Voltar
-            </Text>       
+            <TouchableOpacity onPress={() => this.props.navigation.goBack()}>
+                <Text
+                    style={{color: 'white', fontSize: 20}}
+                >
+                    Voltar
+                </Text>
+            </TouchableOpacity>         
           </View>
           
           <Text
@@ -69,18 +71,21 @@ export default class Pesquisa extends Component{
             />
           </View>
 
-          <View>
+          <View
+            style={{
+              width: 340,
+              borderColor: "white",
+              borderWidth: 1,
+              borderRadius: 5
+            }}
+          >
             <Button 
               onPress = {() => {
                 alert("Vamu!")
               }}
               title = 'Vamu'
-              buttonStyle = {{
+              buttonStyle={{
                 backgroundColor: "rgba(52, 52, 52, 0)",
-                width: 340,
-                borderColor: "white",
-                borderWidth: 1,
-                borderRadius: 5
               }}
             />
           </View>

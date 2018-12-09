@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, Image } from 'react-native';
+import {Text, View, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 import Pesquisa from '../components/Pesquisa';
   
@@ -8,7 +8,9 @@ export default class Carona extends Component{
   render() {
     return (
         <View>
-            <Pesquisa/>
+            <Pesquisa
+                navigation = {this.props.navigation}
+            />
 
             <View
                 style={{justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexDirection: 'column', }}
@@ -25,10 +27,14 @@ export default class Carona extends Component{
                     <View
                         style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly', marginBottom: 20}}
                     >
-                        <Image
-                            style={{width:124, height: 118, marginRight: 20}}
-                            source={require("../../img/carona.png")}
-                        />
+
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Carona')}>
+                            <Image
+                                style={{width:124, height: 118, marginRight: 20}}
+                                source={require("../../img/carona.png")}
+                            />
+                        </TouchableOpacity>       
+                        
                         <Image
                             style={{width:124, height: 118}}
                             source={require("../../img/eventos.png")}
