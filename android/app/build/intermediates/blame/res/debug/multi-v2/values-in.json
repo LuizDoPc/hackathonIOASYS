@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/root/Documentos/hackathonIOASYS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+            "outputFile": "/home/ioasys/hackthon/hackathonIOASYS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
             "map": [
                 {
-                    "source": "/root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8f2c51e7e03c4a401ff8775da9204059/res/values-in/values-in.xml",
+                    "source": "/home/ioasys/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cb6f6f38eeef8776fb082ef6de6e0c62/res/values-in/values-in.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e2b0aa12f471f19c80ec93c87e961bd1/res/values-in/values-in.xml",
+                    "source": "/home/ioasys/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f3c54a5e20328983e4879f8aa0312710/res/values-in/values-in.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
