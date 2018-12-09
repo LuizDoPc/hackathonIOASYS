@@ -17,7 +17,8 @@ export default class App extends Component{
       Login: { screen: Login },
       IniciarCarona: { screen: IniciarCarona }
     },  {
-      initialRouteName: "Login"
+      initialRouteName: "Login",
+      headerMode: 'none',
     }));
     return (
 
