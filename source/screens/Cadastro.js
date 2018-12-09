@@ -25,7 +25,7 @@ export default class Cadastro extends Component{
           >
             <Image
                 style={{width:118, height: 118, top: -50}}
-                source={require("/root/Documentos/hackathonIOASYS/img/logo.jpg")}
+                source={require("../../img/logo.png")}
             />
 
             <TextInput style={styles.input}

@@ -16,7 +16,7 @@ export default class Login extends Component{
         >
           <Image
               style={{width:118, height: 118, marginBottom: 57}}
-              source={require('../../img/logo.jpg')}
+              source={require('../../img/logo.png')}
           />
 
           <TextInput style={styles.input}
