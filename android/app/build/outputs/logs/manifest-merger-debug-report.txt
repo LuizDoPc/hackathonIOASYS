@@ -1,159 +1,159 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-gesture-handler] /home/ioasys/hackthon/hackathonIOASYS/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-vector-icons] /home/ioasys/hackthon/hackathonIOASYS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.57.7] /home/ioasys/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/8c6188f515a7782e6d494f0e89a71a65/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f3c54a5e20328983e4879f8aa0312710/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/89241104cd15c16284a8b46626230231/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/83d874d49d391706add38ac26ba890d2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7ebdb8e5e0c5081aeeff380530e63726/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3015e493a09c266b432180b352d7ba8d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b8d78c71a149639db8e54e95ff22d36e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cb6f6f38eeef8776fb082ef6de6e0c62/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/5d04e2ec68e3b437a62bd791e63f8b2c/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/dfd54c84f1803785a38c48191f859517/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/2ef3b946c1487e357e07eb2a8e4e0356/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/c098582a4cd2e70e18ce1ffac15185bb/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/da67f1e4ee53518357b4fe6b95574d52/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2d876c86deed4efb5faf10d8527ab633/AndroidManifest.xml:2:1-13:12
-MERGED from [org.webkit:android-jsc:r174650] /home/ioasys/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f1aa85076e460a2db3eaf56d8c13266b/AndroidManifest.xml:1:1-3:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/34e4f03b01b31de320d523cc720f85c0/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/30692503a00bf00cad85eb34deeae315/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/03f6ec0f41ae37e0fb388b0d0349a676/AndroidManifest.xml:2:1-9:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/613edf3a6c32bd6fc335f6ca23f88655/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/834021c9a5c03757342ecc0f4f93210d/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-gesture-handler] /root/Documentos/hackathonIOASYS/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /root/Documentos/hackathonIOASYS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.7] /root/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/cbbb6cf07b10731422468ff5745ca33f/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e2b0aa12f471f19c80ec93c87e961bd1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cafca5390f570f7506cd82bd230365f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/075194a0a7d7cef4edde342754ce7835/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/2f31cb18220035b96ad50c91510c7cd7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/67cda371cddca3c0b4eb23b2389e34f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1822739e8ed768f34f6081edc8dfdb84/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8f2c51e7e03c4a401ff8775da9204059/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/b8d7c5e454ee2cc2aa420da99826312e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39ce2dc7d724ef09dd9c4fcdbac7466d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/11aaf28fbc09c23f45c15ecf0495d79d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/387a8d307107d02a10af1a42b876dcba/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/b2b17a23861185e682ddc3cd988a8e46/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /root/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a0a94c2f57786f3bb6d710acf3b47172/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /root/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/13ccb03947fa73927736fd14a3568ae8/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/96edf42846a5a8a953eba566d9c0ece9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8a22cdc3f06672ee7f42612007464585/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/ef39d121c899b628165a54ad74b4d456/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ead41b7abe747d7bdf240e8b750b01d6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c6a444c16ac62a62cee045e4177fe73b/AndroidManifest.xml:17:1-22:12
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:2:5-24
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:2:5-24
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.7] /home/ioasys/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/8c6188f515a7782e6d494f0e89a71a65/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.7] /home/ioasys/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/8c6188f515a7782e6d494f0e89a71a65/AndroidManifest.xml:11:5-78
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.7] /root/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/cbbb6cf07b10731422468ff5745ca33f/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.7] /root/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/cbbb6cf07b10731422468ff5745ca33f/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.57.7] /home/ioasys/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/8c6188f515a7782e6d494f0e89a71a65/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.7] /home/ioasys/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/8c6188f515a7782e6d494f0e89a71a65/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2d876c86deed4efb5faf10d8527ab633/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2d876c86deed4efb5faf10d8527ab633/AndroidManifest.xml:11:5-20
-MERGED from [org.webkit:android-jsc:r174650] /home/ioasys/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f1aa85076e460a2db3eaf56d8c13266b/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /home/ioasys/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f1aa85076e460a2db3eaf56d8c13266b/AndroidManifest.xml:2:3-17
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.7] /root/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/cbbb6cf07b10731422468ff5745ca33f/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.7] /root/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/cbbb6cf07b10731422468ff5745ca33f/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /root/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a0a94c2f57786f3bb6d710acf3b47172/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /root/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a0a94c2f57786f3bb6d710acf3b47172/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /root/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/13ccb03947fa73927736fd14a3568ae8/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /root/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/13ccb03947fa73927736fd14a3568ae8/AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.teste.MainActivity
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-gesture-handler] /home/ioasys/hackthon/hackathonIOASYS/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /home/ioasys/hackthon/hackathonIOASYS/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/ioasys/hackthon/hackathonIOASYS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/ioasys/hackthon/hackathonIOASYS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.7] /home/ioasys/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/8c6188f515a7782e6d494f0e89a71a65/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.7] /home/ioasys/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/8c6188f515a7782e6d494f0e89a71a65/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f3c54a5e20328983e4879f8aa0312710/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f3c54a5e20328983e4879f8aa0312710/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/89241104cd15c16284a8b46626230231/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/89241104cd15c16284a8b46626230231/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/83d874d49d391706add38ac26ba890d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/83d874d49d391706add38ac26ba890d2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7ebdb8e5e0c5081aeeff380530e63726/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7ebdb8e5e0c5081aeeff380530e63726/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3015e493a09c266b432180b352d7ba8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3015e493a09c266b432180b352d7ba8d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b8d78c71a149639db8e54e95ff22d36e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/b8d78c71a149639db8e54e95ff22d36e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cb6f6f38eeef8776fb082ef6de6e0c62/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cb6f6f38eeef8776fb082ef6de6e0c62/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/5d04e2ec68e3b437a62bd791e63f8b2c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/5d04e2ec68e3b437a62bd791e63f8b2c/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/dfd54c84f1803785a38c48191f859517/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/dfd54c84f1803785a38c48191f859517/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/2ef3b946c1487e357e07eb2a8e4e0356/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/2ef3b946c1487e357e07eb2a8e4e0356/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/c098582a4cd2e70e18ce1ffac15185bb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/c098582a4cd2e70e18ce1ffac15185bb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/da67f1e4ee53518357b4fe6b95574d52/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/da67f1e4ee53518357b4fe6b95574d52/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2d876c86deed4efb5faf10d8527ab633/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.soloader:soloader:0.5.1] /home/ioasys/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/2d876c86deed4efb5faf10d8527ab633/AndroidManifest.xml:7:5-9:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/34e4f03b01b31de320d523cc720f85c0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/34e4f03b01b31de320d523cc720f85c0/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/30692503a00bf00cad85eb34deeae315/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/30692503a00bf00cad85eb34deeae315/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/03f6ec0f41ae37e0fb388b0d0349a676/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/03f6ec0f41ae37e0fb388b0d0349a676/AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/613edf3a6c32bd6fc335f6ca23f88655/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/613edf3a6c32bd6fc335f6ca23f88655/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/834021c9a5c03757342ecc0f4f93210d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /home/ioasys/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/834021c9a5c03757342ecc0f4f93210d/AndroidManifest.xml:20:5-44
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /root/Documentos/hackathonIOASYS/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /root/Documentos/hackathonIOASYS/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /root/Documentos/hackathonIOASYS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /root/Documentos/hackathonIOASYS/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.7] /root/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/cbbb6cf07b10731422468ff5745ca33f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.7] /root/.gradle/caches/transforms-1/files-1.1/react-native-0.57.7.aar/cbbb6cf07b10731422468ff5745ca33f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e2b0aa12f471f19c80ec93c87e961bd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e2b0aa12f471f19c80ec93c87e961bd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cafca5390f570f7506cd82bd230365f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cafca5390f570f7506cd82bd230365f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/075194a0a7d7cef4edde342754ce7835/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/075194a0a7d7cef4edde342754ce7835/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/2f31cb18220035b96ad50c91510c7cd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/2f31cb18220035b96ad50c91510c7cd7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/67cda371cddca3c0b4eb23b2389e34f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/67cda371cddca3c0b4eb23b2389e34f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1822739e8ed768f34f6081edc8dfdb84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/1822739e8ed768f34f6081edc8dfdb84/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8f2c51e7e03c4a401ff8775da9204059/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /root/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8f2c51e7e03c4a401ff8775da9204059/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/b8d7c5e454ee2cc2aa420da99826312e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/b8d7c5e454ee2cc2aa420da99826312e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39ce2dc7d724ef09dd9c4fcdbac7466d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/39ce2dc7d724ef09dd9c4fcdbac7466d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/11aaf28fbc09c23f45c15ecf0495d79d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/11aaf28fbc09c23f45c15ecf0495d79d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/387a8d307107d02a10af1a42b876dcba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/387a8d307107d02a10af1a42b876dcba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/b2b17a23861185e682ddc3cd988a8e46/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/b2b17a23861185e682ddc3cd988a8e46/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /root/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a0a94c2f57786f3bb6d710acf3b47172/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /root/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a0a94c2f57786f3bb6d710acf3b47172/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/96edf42846a5a8a953eba566d9c0ece9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/96edf42846a5a8a953eba566d9c0ece9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8a22cdc3f06672ee7f42612007464585/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8a22cdc3f06672ee7f42612007464585/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/ef39d121c899b628165a54ad74b4d456/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /root/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/ef39d121c899b628165a54ad74b4d456/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ead41b7abe747d7bdf240e8b750b01d6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ead41b7abe747d7bdf240e8b750b01d6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c6a444c16ac62a62cee045e4177fe73b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /root/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/c6a444c16ac62a62cee045e4177fe73b/AndroidManifest.xml:20:5-44
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		ADDED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
+		INJECTED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/ioasys/hackthon/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /root/Documentos/hackathonIOASYS/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

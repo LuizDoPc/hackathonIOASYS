@@ -15,7 +15,7 @@ export default class Login extends Component{
           style={{backgroundColor: 'rgba(0, 0, 0, .8)', width: '100%', height: '100%', justifyContent: 'center', alignItems: 'center'}}
         >
           <Image
-              style={{width:118, height: 118, marginBottom: 57}}
+              style={{width:135, height: 118, marginBottom: 57}}
               source={require('../../img/logo.png')}
           />
 
