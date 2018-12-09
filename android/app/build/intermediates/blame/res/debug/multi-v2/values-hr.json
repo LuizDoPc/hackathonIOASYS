@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/root/Documentos/teste/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
+            "outputFile": "/root/Documentos/hackathonIOASYS/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
             "map": [
                 {
                     "source": "/root/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e2b0aa12f471f19c80ec93c87e961bd1/res/values-hr/values-hr.xml",

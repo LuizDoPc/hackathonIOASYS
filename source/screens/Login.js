@@ -10,7 +10,7 @@ export default class Login extends Component{
   render() {
     return (
       <ImageBackground
-        source = {require("/root/Documentos/teste/img/bglogin.png")}
+        source = {require("/root/Documentos/hackathonIOASYS/img/bglogin.png")}
         style = {{width: '100%', height: '100%'}}
       >
         <View
@@ -18,7 +18,7 @@ export default class Login extends Component{
         >
           <Image
               style={{width:118, height: 118, marginBottom: 57}}
-              source={require("/root/Documentos/teste/img/logo.jpg")}
+              source={require("/root/Documentos/hackathonIOASYS/img/logo.jpg")}
           />
 
           <TextInput style={styles.input}

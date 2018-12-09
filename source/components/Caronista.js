@@ -9,15 +9,19 @@ export default class Caronista extends Component{
     return (
         <View style={styles.pai}>
             <Image
-                style={{width:118, height: 118, top: -50}}
-                source={require("/root/Documentos/teste/img/logo.jpg")}
+                style={{width:160, height: 118}}
+                source={require("/root/Documentos/hackathonIOASYS/img/logo.jpg")}
             />
 
-            <Text
-                style={{color: 'white', fontSize: 30}}
+            <View
+                style={styles.bg}
             >
-                João Pedro
-            </Text>       
+                <Text
+                    style={{color: 'white', fontSize: 30}}
+                >
+                    IR JUNTO
+                </Text>   
+            </View>    
         </View>
     );
   }
@@ -27,5 +31,13 @@ const styles = StyleSheet.create({
     pai: {
         display: 'flex',
         flexDirection: 'column',
-    }
+    },
+    bg: {
+        backgroundColor : "#282835",
+        padding: 10,
+        width: 160,
+        display: 'flex', 
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
 });

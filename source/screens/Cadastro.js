@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Image, View, TextInput, StyleSheet, Button } from 'react-native';
-import NavText from '/root/Documentos/teste/source/components/NavText.js';
+import NavText from '/root/Documentos/hackathonIOASYS/source/components/NavText.js';
 
   
 export default class Cadastro extends Component{
@@ -25,7 +25,7 @@ export default class Cadastro extends Component{
           >
             <Image
                 style={{width:118, height: 118, top: -50}}
-                source={require("/root/Documentos/teste/img/logo.jpg")}
+                source={require("/root/Documentos/hackathonIOASYS/img/logo.jpg")}
             />
 
             <TextInput style={styles.input}
