@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Text, Image} from 'react-native';
+import {View, StyleSheet, TouchableOpacity, Text, Image} from 'react-native';
 import {Icon} from 'react-native-elements';
 
 
@@ -10,7 +10,7 @@ export default class Caronista extends Component{
         <View style={styles.pai}>
             <Image
                 style={{width:160, height: 118}}
-                source={require("/root/Documentos/hackathonIOASYS/img/logo.jpg")}
+                source={require('../../img/logo.jpg')}
             />
 
             <View
@@ -21,7 +21,10 @@ export default class Caronista extends Component{
                 >
                     IR JUNTO
                 </Text>   
-            </View>    
+            </View>
+            <TouchableOpacity onPress={() => this.props.navigation.navigate('NavText')}>
+                <Text>Ir para proxima tela</Text>
+            </TouchableOpacity>    
         </View>
     );
   }

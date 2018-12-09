@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text, View, StyleSheet } from 'react-native';
-import NavText from '/root/Documentos/hackathonIOASYS/source/components/NavText.js';
-import Caronista from '/root/Documentos/hackathonIOASYS/source/components/Caronista.js';
+
+import NavText from '../../NavText.js'
   
 export default class Carona extends Component{
   state = {

@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Text,} from 'react-native';
+import {View, StyleSheet, TouchableOpacity, Text,} from 'react-native';
 import {Icon} from 'react-native-elements';
-
-
   
 export default class NavText extends Component{
   render() {
@@ -24,7 +22,11 @@ export default class NavText extends Component{
                 sytle={{color: 'white', fontSize: 30}}
             >
                 {this.props.direita}
-            </Text>        
+            </Text>
+
+            <TouchableOpacity onPress={() => this.props.navigation.pop()}>
+                <Text>VOltar</Text>
+            </TouchableOpacity>        
         </View>
     );
   }
@@ -34,7 +36,6 @@ const styles = StyleSheet.create({
     pai: {
         backgroundColor: '#282835', 
         width: '100%', 
-        height: '6%', 
         justifyContent: 'center', 
         alignItems: 'center',
         display: 'flex',
