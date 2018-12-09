@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, StyleSheet } from "react-native";
+import Pontos from "../components/Pontos";
 
 export default class Carona extends Component {
   state = {
@@ -16,7 +17,14 @@ export default class Carona extends Component {
             alignItems: "center"
           }}
         >
-          <Text>Pessoas que passarão por esse ponto, escolha uma.</Text>
+          <Text style={{ marginBottom: 15 }}>
+            Pessoas que passarão por esse ponto, escolha uma.
+          </Text>
+          <Pontos />
+          <Pontos />
+          <Pontos />
+          <Pontos />
+          <Pontos />
         </View>
 
         <View />
