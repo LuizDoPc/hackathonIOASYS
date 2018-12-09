@@ -1,4 +1,4 @@
-#Sat Dec 08 22:40:36 BRST 2018
-base.0=/root/Documentos/hackathonIOASYS/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Sat Dec 08 23:41:36 BRST 2018
+base.0=/home/ioasys/hackthon/hackathonIOASYS/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
