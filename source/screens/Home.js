@@ -26,11 +26,11 @@ export default class Carona extends Component{
                         style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly', marginBottom: 20}}
                     >
                         <Image
-                            style={{width:118, height: 118, marginRight: 20}}
+                            style={{width:124, height: 118, marginRight: 20}}
                             source={require("../../img/carona.png")}
                         />
                         <Image
-                            style={{width:118, height: 118}}
+                            style={{width:124, height: 118}}
                             source={require("../../img/eventos.png")}
                         />
                     </View>
@@ -38,11 +38,11 @@ export default class Carona extends Component{
                         style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly'}}
                     >
                         <Image
-                            style={{width:118, height: 118, marginRight: 20}}
+                            style={{width:124, height: 118, marginRight: 20}}
                             source={require("../../img/onibus.png")}
                         />
                         <Image
-                            style={{width:118, height: 118}}
+                            style={{width:124, height: 118}}
                             source={require("../../img/taxi.png")}
                         />
                     </View>
