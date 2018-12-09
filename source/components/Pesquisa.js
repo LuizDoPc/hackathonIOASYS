@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, TextInput, ImageBackground, Button } from 'react-native';
-import {Icon} from 'react-native-elements';
+import {Text, View, StyleSheet, TextInput, ImageBackground } from 'react-native';
+import {Icon, Button} from 'react-native-elements';
 
 
 export default class Pesquisa extends Component{
@@ -69,12 +69,19 @@ export default class Pesquisa extends Component{
             />
           </View>
 
-          <View style={styles.btn}>
+          <View>
             <Button 
               onPress = {() => {
-                alert("Cadastro")
+                alert("Vamu!")
               }}
               title = 'Vamu'
+              buttonStyle = {{
+                backgroundColor: "rgba(52, 52, 52, 0)",
+                width: 340,
+                borderColor: "white",
+                borderWidth: 1,
+                borderRadius: 5
+              }}
             />
           </View>
         </View>
@@ -96,7 +103,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
-    
+    padding: 20
   },
   inputlbl: {
     display: 'flex',
@@ -125,12 +132,4 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
     marginBottom: 20,
   },
-  btn: {
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
-    borderBottomRightRadius: 10,
-    borderBottomLeftRadius: 10,
-    width: 340,
-  },
-
 });

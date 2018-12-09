@@ -14,30 +14,38 @@ export default class Carona extends Component{
                 style={{justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexDirection: 'column', }}
             >
                 <Text
-                    style={{top: -130}}
+                    style={{top: -130, fontSize: 20}}
                 >
                     Voce pode escolher entre essas maneiras:
                 </Text>
 
                 <View
-                    style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly'}}
+                    style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'column', justifyContent: 'space-evenly', top: -50}}
                 >
-                    <Image
-                        style={{width:118, height: 118, marginLeft: 20}}
-                        source={require("../../img/carona.png")}
-                    />
-                    <Image
-                        style={{width:118, height: 118, marginLeft: 20}}
-                        source={require("../../img/eventos.png")}
-                    />
-                    <Image
-                        style={{width:118, height: 118, marginLeft: 20}}
-                        source={require("../../img/onibus.png")}
-                    />
-                    <Image
-                        style={{width:118, height: 118, marginLeft: 20}}
-                        source={require("../../img/taxi.png")}
-                    />
+                    <View
+                        style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly', marginBottom: 20}}
+                    >
+                        <Image
+                            style={{width:118, height: 118, marginRight: 20}}
+                            source={require("../../img/carona.png")}
+                        />
+                        <Image
+                            style={{width:118, height: 118}}
+                            source={require("../../img/eventos.png")}
+                        />
+                    </View>
+                    <View
+                        style={{display: 'flex', flexWrap: 'wrap', flexDirection: 'row', justifyContent: 'space-evenly'}}
+                    >
+                        <Image
+                            style={{width:118, height: 118, marginRight: 20}}
+                            source={require("../../img/onibus.png")}
+                        />
+                        <Image
+                            style={{width:118, height: 118}}
+                            source={require("../../img/taxi.png")}
+                        />
+                    </View>
                 </View>
             </View>
         </View>
