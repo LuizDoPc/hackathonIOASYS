@@ -10,7 +10,7 @@ export default class Caronista extends Component{
         <View style={styles.pai}>
             <Image
                 style={{width:160, height: 118}}
-                source={require('../../img/logo.jpg')}
+                source={require('../../img/logo.png')}
             />
 
             <View
