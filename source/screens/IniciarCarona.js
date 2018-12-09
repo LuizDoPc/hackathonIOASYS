@@ -24,7 +24,7 @@ export default class IniciarCarona extends Component{
                 </Text>
             </View>
             <View style={{marginTop: '6%'}}>
-                <Button onPress={() => this.props.navigation.navigate('IniciarCarona')}
+                <Button onPress={() => this.props.navigation.navigate('Home')}
                     icon={
                         <Icon
                         name='thumbs-o-up'
