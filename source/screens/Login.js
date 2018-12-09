@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import {Image, View, TextInput, StyleSheet, Button, ImageBackground } from 'react-native';
+import {Image, View, TextInput, StyleSheet, Button, ImageBackground, TouchableOpacity } from 'react-native';
 
-
-  
 export default class Login extends Component{
   state = {
     value: ""
@@ -10,7 +8,7 @@ export default class Login extends Component{
   render() {
     return (
       <ImageBackground
-        source = {require("/root/Documentos/hackathonIOASYS/img/bglogin.png")}
+        source = {require('../../img/bglogin.png')}
         style = {{width: '100%', height: '100%'}}
       >
         <View
@@ -18,7 +16,7 @@ export default class Login extends Component{
         >
           <Image
               style={{width:118, height: 118, marginBottom: 57}}
-              source={require("/root/Documentos/hackathonIOASYS/img/logo.jpg")}
+              source={require('../../img/logo.jpg')}
           />
 
           <TextInput style={styles.input}
@@ -38,12 +36,9 @@ export default class Login extends Component{
           />
 
           <View style={styles.botao}>
-            <Button 
-              onPress = {() => {
-                alert("Login")
-              }}
-              title = 'Entrar'
-              color = "#282835"
+            <Button onPress={() => this.props.navigation.navigate('IniciarCarona')}
+             title = 'Entrar'
+             color = '#282835'
             />
           </View>
 
@@ -54,6 +49,7 @@ export default class Login extends Component{
               }}
               title = 'Cadastrar'
               />
+
           </View>
         
         </View>
