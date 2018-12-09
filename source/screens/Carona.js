@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Text, View, StyleSheet } from 'react-native';
 import NavText from '/root/Documentos/hackathonIOASYS/source/components/NavText.js';
-
+import Caronista from '/root/Documentos/hackathonIOASYS/source/components/Caronista.js';
   
 export default class Carona extends Component{
   state = {
@@ -23,11 +23,16 @@ export default class Carona extends Component{
                 justifyContent: 'center', 
                 alignItems: 'center'}}
             >
-                
                 <Text>
                     Pessoas que passarão por esse ponto,
                     escolha uma.
                 </Text>
+            
+            </View>
+
+            <View
+            
+            >
 
 
             </View>

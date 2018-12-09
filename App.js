@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, Image} from 'react-native';
-import Caronista from './source/components/Caronista';
+import Pesquisa from '/root/Documentos/hackathonIOASYS/source/components/Pesquisa.js';
 
 
 export default class App extends Component{
@@ -8,7 +8,7 @@ export default class App extends Component{
     return (
         
       <View style={styles.container}>
-        <Caronista/>
+        <Pesquisa/>
       </View>
     );
   }

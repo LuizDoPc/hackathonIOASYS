@@ -53,7 +53,7 @@ export default class Login extends Component{
                 alert("Cadastro")
               }}
               title = 'Cadastrar'
-              />
+            />
           </View>
         
         </View>
