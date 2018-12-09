@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import {StyleSheet, View, Image} from 'react-native';
 
 import Caronista from './source/components/Caronista';
-import NavText from './source/components/NavText'
+import NavText from './source/components/NavText';
+import Home from './source/screens/Home';
 import { createStackNavigator, createAppContainer } from "react-navigation";
 
 export default class App extends Component{
@@ -11,7 +12,8 @@ export default class App extends Component{
       Caronista: {screen: Caronista, navigationOptions: ({ navigation }) => ({
         title: `Caronista`,
       })},
-      NavText: { screen: NavText}
+      NavText: { screen: NavText},
+      Home: { screen: Home},
     },  {
       initialRouteName: "Caronista"
     }));

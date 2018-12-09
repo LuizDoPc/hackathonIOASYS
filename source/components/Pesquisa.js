@@ -11,7 +11,7 @@ export default class Pesquisa extends Component{
     return (
       <ImageBackground
         source = {require("/root/Documentos/hackathonIOASYS/img/bgpesquisa.png")}
-        style = {{width: '100%', height: '60%'}}
+        style = {{width: '100%', height: '65%'}}
       >
         <View style={styles.pai}>
           <View style={styles.head}>

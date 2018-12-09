@@ -22,7 +22,7 @@ export default class Caronista extends Component{
                     IR JUNTO
                 </Text>   
             </View>
-            <TouchableOpacity onPress={() => this.props.navigation.navigate('NavText')}>
+            <TouchableOpacity onPress={() => this.props.navigation.navigate('Home')}>
                 <Text>Ir para proxima tela</Text>
             </TouchableOpacity>    
         </View>
